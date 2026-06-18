@@ -12,7 +12,7 @@ services:
       - db
 
   flask-app-2:
-    image: zulnurain/myapp:${APP1_IMAGE_TAG:-latest}
+    image: zulnurain/myapp:latest
     container_name: flask-app-2
     ports:
       - "8002:8000"
