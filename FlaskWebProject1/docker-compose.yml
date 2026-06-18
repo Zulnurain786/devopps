@@ -12,7 +12,7 @@ services:
       - db
 
   flask-app-2:
-    image: zulnurain/myapp:latest
+    image: zulnurain/myapp:v1
     container_name: flask-app-2
     ports:
       - "8002:8000"
